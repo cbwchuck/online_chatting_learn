@@ -1,0 +1,6 @@
+framework module Pods_smack_learning2 {
+  umbrella header "Pods-smack_learning2-umbrella.h"
+
+  export *
+  module * { export * }
+}
