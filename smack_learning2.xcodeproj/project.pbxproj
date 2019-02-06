@@ -17,7 +17,9 @@
 		130881FD20A2E75900712E4F /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130881FC20A2E75900712E4F /* GradientView.swift */; };
 		1308820020A3016B00712E4F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130881FF20A3016B00712E4F /* Constants.swift */; };
 		1308820220A3413500712E4F /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1308820120A3413500712E4F /* LoginVC.swift */; };
+		1355DADC20A554D900B9742B /* RoundedButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1355DADB20A554D900B9742B /* RoundedButtonView.swift */; };
 		13AE877C20A42E2C00F9BCA0 /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AE877B20A42E2C00F9BCA0 /* CreateAccountVC.swift */; };
+		13AE87A220A496FB00F9BCA0 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AE87A120A496FB00F9BCA0 /* AuthService.swift */; };
 		30D8ADFA45515CA04C1EB29A /* Pods_smack_learning2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C65AB4F82975AA54BDEA7F31 /* Pods_smack_learning2.framework */; };
 /* End PBXBuildFile section */
 
@@ -36,7 +38,9 @@
 		130881FC20A2E75900712E4F /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		130881FF20A3016B00712E4F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		1308820120A3413500712E4F /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		1355DADB20A554D900B9742B /* RoundedButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButtonView.swift; sourceTree = "<group>"; };
 		13AE877B20A42E2C00F9BCA0 /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
+		13AE87A120A496FB00F9BCA0 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		6906A357C259A6059DC4927E /* Pods-smack_learning2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smack_learning2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-smack_learning2/Pods-smack_learning2.debug.xcconfig"; sourceTree = "<group>"; };
 		ABC4F8398C3A68EFA38E2883 /* Pods-smack_learning2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smack_learning2.release.xcconfig"; path = "Pods/Target Support Files/Pods-smack_learning2/Pods-smack_learning2.release.xcconfig"; sourceTree = "<group>"; };
 		C65AB4F82975AA54BDEA7F31 /* Pods_smack_learning2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_smack_learning2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -75,6 +79,7 @@
 		130881CC20A2BAAA00712E4F /* smack_learning2 */ = {
 			isa = PBXGroup;
 			children = (
+				13AE87A020A496DF00F9BCA0 /* Services */,
 				130881FE20A3015B00712E4F /* Utilities */,
 				130881F320A2BDF400712E4F /* Supportingfiles */,
 				130881E120A2BC4F00712E4F /* Controller */,
@@ -100,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				130881FC20A2E75900712E4F /* GradientView.swift */,
+				1355DADB20A554D900B9742B /* RoundedButtonView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -132,6 +138,14 @@
 				130881FF20A3016B00712E4F /* Constants.swift */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		13AE87A020A496DF00F9BCA0 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				13AE87A120A496FB00F9BCA0 /* AuthService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 		3EF3141893AC71756752E969 /* Pods */ = {
@@ -290,10 +304,12 @@
 				130881FB20A2BFA800712E4F /* ChannelVC.swift in Sources */,
 				130881F920A2BF9800712E4F /* ChatVC.swift in Sources */,
 				13AE877C20A42E2C00F9BCA0 /* CreateAccountVC.swift in Sources */,
+				13AE87A220A496FB00F9BCA0 /* AuthService.swift in Sources */,
 				1308820220A3413500712E4F /* LoginVC.swift in Sources */,
 				130881FD20A2E75900712E4F /* GradientView.swift in Sources */,
 				130881CE20A2BAAA00712E4F /* AppDelegate.swift in Sources */,
 				130881F620A2BE2D00712E4F /* SWRevealViewController.m in Sources */,
+				1355DADC20A554D900B9742B /* RoundedButtonView.swift in Sources */,
 				1308820020A3016B00712E4F /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
